@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+}
+
+#gameArea {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+#gameCanvas {
+    background-color: #fff;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#restartBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#score {
+    font-size: 18px;
+}
